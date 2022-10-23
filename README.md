@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <h1 align="center">Hi 👋, I'm gOOvER</h1>
 <h3 align="center">A Hobbycoder with no knowledge</h3>
 
@@ -22,5 +20,5 @@
 <h3 align="left">Support:</h3>
 <p><a href="https://ko-fi.com/oldnoob"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="oldnoob" /></a></p><br><br>
 
-
+### Hacktober
 [![@goover's Holopin board](https://holopin.me/goover)](https://holopin.io/@goover)

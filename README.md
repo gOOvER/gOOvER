@@ -2,6 +2,7 @@
 <h3 align="center">A Hobbycoder with no knowledge</h3>
 
 <p align="left">My Discord</p>
+
 [![](https://dcbadge.vercel.app/api/server/raurR4vshX)](https://discord.gg/raurR4vshX)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goover&label=Profile%20views&color=0e75b6&style=flat" alt="goover" /> </p>

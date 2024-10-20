@@ -1,11 +1,9 @@
 <h1 align="center">Hi 👋, I'm gOOvER</h1>
-<h3 align="center">Hobbycoder with no skill :) Creating Eggs and Images for Pterodactyl and Moonlight Gamepanel</h3>
+<h3 align="center">Hobbycoder with no skill :) Creating Eggs and Images for Pelican Panel, Pterodactyl and when its in Beta Moonlight Gamepanel</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goover&label=Profile%20views&color=0e75b6&style=flat" alt="goover" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=goover" alt="goover" /></a> </p>
-
-- 👯 I’m looking to collaborate on **Moonlight Panel**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

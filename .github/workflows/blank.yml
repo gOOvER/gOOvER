@@ -1,23 +1,33 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  create:
   push:
+    branches:
+      - main
+    paths-ignore:
+      - 'profile-summary-card-output/**'
   schedule:
-    - cron: "0 23 * * *"
+    - cron: '0 23 * * *'
   workflow_dispatch:
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate
-    
-    steps:
-      - uses: actions/checkout@v2
-      - uses: vn7n24fzkq/github-profile-summary-cardsv@0.4.0-hotfix.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
-        with:
-          username: ${{ github.repository_owner }}
+    name: Generate Profile Summary Cards
+    permissions:
+      contents: write
 
-         
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Summary Cards (TokyoNight & Dracula)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN != '' && secrets.SUMMARY_CARDS_TOKEN || github.token }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          TIME_ZONE: Europe/Vienna
+          ANIMATION: load
+          AUTO_PUSH: true

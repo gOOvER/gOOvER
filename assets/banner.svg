@@ -1,50 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f101a" />
+      <stop offset="0%" stop-color="#0d0e17" />
       <stop offset="50%" stop-color="#1a1b26" />
-      <stop offset="100%" stop-color="#16161e" />
+      <stop offset="100%" stop-color="#13141f" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7aa2f7" />
       <stop offset="50%" stop-color="#bb9af7" />
       <stop offset="100%" stop-color="#7dcfff" />
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0.0" />
+    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0" />
+      <stop offset="50%" stop-color="#7aa2f7" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0" />
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7aa2f7" stroke-width="0.6" stroke-opacity="0.08" />
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#7aa2f7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bb9af7" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7aa2f7" fill-opacity="0.12" />
     </pattern>
   </defs>
 
   <style>
+    .term-text {
+      font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 12px;
+      fill: #565f89;
+    }
+    .status-text {
+      font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #9ece6a;
+      letter-spacing: 0.6px;
+    }
+    .eyebrow {
+      font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #9ece6a;
+      letter-spacing: 2.5px;
+    }
     .title {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
       font-size: 46px;
       font-weight: 800;
       fill: url(#accent);
-      letter-spacing: 1px;
-    }
-    .greeting {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-      font-size: 20px;
-      font-weight: 600;
-      fill: #9ece6a;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+      letter-spacing: -0.5px;
     }
     .subtitle {
-      font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
-      font-size: 16px;
+      font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 14.5px;
       fill: #a9b1d6;
     }
+    .prompt {
+      font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+      font-size: 14.5px;
+      font-weight: 700;
+      fill: #7dcfff;
+    }
     .pill-bg {
-      fill: #24283b;
-      stroke: #414868;
+      fill: #1f2335;
+      stroke: #292e42;
       stroke-width: 1;
-      rx: 14;
     }
     .pill-text {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
@@ -52,56 +77,65 @@
       font-weight: 600;
       fill: #c0caf5;
     }
-    .cursor {
-      fill: #7dcfff;
-      animation: blink 1.1s step-end infinite;
+    .pulse-dot {
+      animation: pulseDot 2.4s ease-in-out infinite;
     }
-    .pulse-circle {
-      animation: pulse 4s ease-in-out infinite;
+    .pulse-glow {
+      animation: pulseGlow 6s ease-in-out infinite;
     }
-    @keyframes blink {
+    @keyframes pulseDot {
       0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
+      50% { opacity: 0.35; }
     }
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); opacity: 0.6; }
-      50% { transform: scale(1.08); opacity: 0.9; }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.75; }
+      50% { opacity: 1; }
     }
   </style>
 
-  <!-- Main Card Background -->
-  <rect width="900" height="230" rx="16" fill="url(#bg)" stroke="#292e42" stroke-width="1.5" />
-  <rect width="900" height="230" rx="16" fill="url(#grid)" />
+  <!-- Main Card -->
+  <rect width="900" height="240" rx="16" fill="url(#bg)" stroke="#292e42" stroke-width="1.5" />
+  <rect width="900" height="240" rx="16" fill="url(#dots)" />
+  <rect x="40" y="0.5" width="820" height="1.5" fill="url(#topHighlight)" />
 
-  <!-- Decorative Glows -->
-  <circle cx="780" cy="60" r="140" fill="url(#glow)" class="pulse-circle" />
-  <circle cx="120" cy="190" r="110" fill="url(#glow)" />
+  <!-- Ambient Glows -->
+  <circle cx="770" cy="55" r="180" fill="url(#glowPurple)" class="pulse-glow" />
+  <circle cx="150" cy="200" r="160" fill="url(#glowBlue)" class="pulse-glow" />
 
-  <!-- Top Terminal Bar Dots -->
-  <circle cx="28" cy="24" r="6" fill="#f7768e" />
-  <circle cx="48" cy="24" r="6" fill="#e0af68" />
-  <circle cx="68" cy="24" r="6" fill="#9ece6a" />
-  <text x="88" y="28" font-family="Consolas, monospace" font-size="12" fill="#565f89">goover@austria: ~/workspace</text>
+  <!-- Top Window Bar -->
+  <circle cx="28" cy="24" r="5.5" fill="#f7768e" />
+  <circle cx="46" cy="24" r="5.5" fill="#e0af68" />
+  <circle cx="64" cy="24" r="5.5" fill="#9ece6a" />
+  <text x="84" y="28" class="term-text">goover@austria:~/open-source</text>
 
-  <!-- Content -->
-  <text x="50" y="75" class="greeting">Servus &amp; Welcome</text>
-  <text x="50" y="125" class="title">Hi, I'm gOOvER</text>
+  <!-- Right Status Pill -->
+  <rect x="724" y="13" width="152" height="22" rx="11" fill="#1f2335" stroke="#292e42" stroke-width="1" />
+  <circle cx="739" cy="24" r="3.5" fill="#9ece6a" class="pulse-dot" />
+  <text x="750" y="28" class="status-text">BUILDING • AT</text>
 
-  <text x="50" y="160" class="subtitle">&gt; Passionate Open-Source Builder • Game Server Infrastructure • Desktop &amp; Gaming Tools</text>
-  <rect x="815" y="146" width="9" height="17" class="cursor" />
+  <!-- Hero Copy -->
+  <text x="48" y="74" class="eyebrow">SERVUS &amp; WELCOME</text>
+  <text x="48" y="124" class="title">Hi, I'm gOOvER</text>
 
-  <!-- Feature Pills -->
-  <g transform="translate(50, 182)">
-    <rect x="0" y="0" width="215" height="28" class="pill-bg" />
-    <text x="14" y="18" class="pill-text">🐳 Pelican &amp; Pterodactyl Eggs</text>
+  <text x="48" y="158" class="prompt">&gt;_</text>
+  <text x="72" y="158" class="subtitle">Open-Source Builder  ·  Game Server Infrastructure  ·  Gaming &amp; Desktop Tools</text>
 
-    <rect x="227" y="0" width="175" height="28" class="pill-bg" />
-    <text x="241" y="18" class="pill-text">🎮 Playnite Extensions</text>
+  <!-- Bottom Ecosystem Pills (4x 192px + 3x 12px = 804px, centered at x=48) -->
+  <g transform="translate(48, 184)">
+    <rect x="0" y="0" width="192" height="32" rx="10" class="pill-bg" />
+    <circle cx="18" cy="16" r="4" fill="#7aa2f7" />
+    <text x="30" y="20" class="pill-text">Pelican &amp; Pterodactyl</text>
 
-    <rect x="414" y="0" width="185" height="28" class="pill-bg" />
-    <text x="428" y="18" class="pill-text">🚀 Star Citizen Tooling</text>
+    <rect x="204" y="0" width="192" height="32" rx="10" class="pill-bg" />
+    <circle cx="222" cy="16" r="4" fill="#bb9af7" />
+    <text x="234" y="20" class="pill-text">Playnite Extensions</text>
 
-    <rect x="611" y="0" width="155" height="28" class="pill-bg" />
-    <text x="625" y="18" class="pill-text">⚔️ WoW Addons &amp; UI</text>
+    <rect x="408" y="0" width="192" height="32" rx="10" class="pill-bg" />
+    <circle cx="426" cy="16" r="4" fill="#7dcfff" />
+    <text x="438" y="20" class="pill-text">Star Citizen Tooling</text>
+
+    <rect x="612" y="0" width="192" height="32" rx="10" class="pill-bg" />
+    <circle cx="630" cy="16" r="4" fill="#9ece6a" />
+    <text x="642" y="20" class="pill-text">WoW Addons &amp; UI</text>
   </g>
 </svg>

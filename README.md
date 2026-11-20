@@ -28,69 +28,54 @@
 
 ## ⚡ About Me
 
-Servus! I'm **gOOvER**, a passionate self-taught developer and open-source tinkerer from **Austria** 🇦🇹.
-What started as a *"hobby coder with no skill"* quickly evolved into building and maintaining dozens of tools, game server containers, desktop extensions, and companion apps for the gaming and self-hosting communities.
+Servus! I'm **gOOvER**, a self-taught developer and open-source tinkerer from **Austria** 🇦🇹.
+What started as a *"hobby coder with no skill"* grew into building and maintaining dozens of tools, game server containers, desktop extensions, and companion apps for the gaming and self-hosting communities.
 
-- 🐳 **Game Server Infrastructure:** Creating ready-to-run **Docker Images**, **Eggs**, and **Panel Plugins** for **Pelican Panel**, **Pterodactyl**, and **CubeCoders AMP**.
-- 🎮 **Playnite Ecosystem:** Maintaining next-gen **Playnite Extensions** (Library integrations, SteamGridDB, GameActivity, DuplicateHider, Themes & Companion plugins).
-- 🚀 **Star Citizen & Gaming Tools:** Developing log-driven companion apps, overlays, and utilities like **SCLogMate**, **QuantumWake**, **NexusApp**, and **DLSS-Manager**.
-- ⚔️ **World of Warcraft Addons:** Crafting lightweight Lua addons such as **GuildGreet-Extended**, **Name2Chat**, and **GGSocialState**.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-**Languages & Frameworks**
-
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-**Infrastructure, Hosting & Databases**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Pelican Panel](https://img.shields.io/badge/Pelican_Panel-0ea5e9?style=for-the-badge&logo=docker&logoColor=white)
-![Pterodactyl](https://img.shields.io/badge/Pterodactyl-105293?style=for-the-badge&logo=pterodactyl&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <b>🐳 Game Server Infrastructure</b><br />
+      Ready-to-run <b>Docker Images</b>, <b>Eggs</b>, and <b>Panel Plugins</b> for <b>Pelican Panel</b> and <b>Pterodactyl</b>.
+    </td>
+    <td width="50%" valign="top">
+      <b>🎮 Playnite Ecosystem</b><br />
+      Next-gen <b>Playnite Extensions</b> — library integrations, SteamGridDB metadata, activity tracking &amp; companion plugins.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🚀 Star Citizen &amp; Gaming Tools</b><br />
+      Log-driven companion apps and utilities like <b>SCLogMate</b> and <b>DLSS-Manager</b>.
+    </td>
+    <td width="50%" valign="top">
+      <b>⚔️ World of Warcraft Addons</b><br />
+      Lightweight Lua addons for Retail &amp; Classic, including <b>GuildGreet-Extended</b>, <b>Name2Chat</b>, and <b>GGSocialState</b>.
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🚀 Featured Projects & Ecosystems
 
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>🐳 Pelican &amp; Pterodactyl Hosting</h3>
       <ul>
-        <li><a href="https://github.com/gOOvER/own-pterodactyl-eggs"><b>own-pterodactyl-eggs</b></a> — Curated collection of custom Game Server Eggs for Pterodactyl &amp; Pelican Panel.</li>
-        <li><a href="https://github.com/gOOvER/pelican-ptero-images"><b>pelican-ptero-images</b></a> — Optimized multi-arch Docker runtime images for game server hosting panels.</li>
-        <li><a href="https://github.com/gOOvER/pelican-factorio-mod-installer"><b>pelican-factorio-mod-installer</b></a> &amp; <a href="https://github.com/gOOvER/pelican-factorio-manager"><b>factorio-manager</b></a> — Manage and install Factorio mods directly from the Pelican GUI.</li>
-        <li><a href="https://github.com/gOOvER/egg-uuid-changer"><b>egg-uuid-changer</b></a> — Pelican Panel plugin to manage and update Egg UUIDs seamlessly.</li>
+        <li><a href="https://github.com/gOOvER/own-pterodactyl-eggs"><b>own-pterodactyl-eggs</b></a> — Custom Game Server Eggs for Pterodactyl &amp; Pelican Panel.</li>
+        <li><a href="https://github.com/gOOvER/pelican-ptero-images"><b>pelican-ptero-images</b></a> — Multi-arch Docker runtime images for game servers.</li>
+        <li><a href="https://github.com/gOOvER/pelican-factorio-mod-installer"><b>pelican-factorio-mod-installer</b></a> &amp; <a href="https://github.com/gOOvER/pelican-factorio-manager"><b>factorio-manager</b></a> — Factorio mod management in Pelican GUI.</li>
+        <li><a href="https://github.com/gOOvER/egg-uuid-changer"><b>egg-uuid-changer</b></a> — Seamless Egg UUID management plugin for Pelican Panel.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>🎮 Playnite Extensions &amp; Themes</h3>
       <ul>
-        <li><a href="https://github.com/gOOvER/Playnite-StarCitizen-Companion"><b>Playnite-StarCitizen-Companion</b></a> — SCVerse integration, SCLogMate session debriefings &amp; live server status.</li>
-        <li><a href="https://github.com/gOOvER/Playnite-StarCitizen-Library"><b>Playnite-StarCitizen-Library</b></a> — Dedicated Roberts Space Industries / Star Citizen library plugin.</li>
-        <li><a href="https://github.com/gOOvER/Playnite-SteamGridDBMetadataNG"><b>Playnite-SteamGridDBMetadataNG</b></a> — Next-Gen metadata provider powered by SteamGridDB.</li>
-        <li><a href="https://github.com/gOOvER/playnite-gameactivity-ng"><b>playnite-gameactivity-ng</b></a> &amp; <a href="https://github.com/gOOvER/playnite-playeractivities-ng"><b>playeractivities-ng</b></a> — Detailed activity tracking, timelines, and gaming statistics.</li>
+        <li><a href="https://github.com/gOOvER/Playnite-StarCitizen-Companion"><b>Playnite-StarCitizen-Companion</b></a> — SCVerse integration, SCLogMate debriefings &amp; live status.</li>
+        <li><a href="https://github.com/gOOvER/Playnite-StarCitizen-Library"><b>Playnite-StarCitizen-Library</b></a> — Dedicated RSI / Star Citizen library integration.</li>
+        <li><a href="https://github.com/gOOvER/Playnite-SteamGridDBMetadataNG"><b>Playnite-SteamGridDBMetadataNG</b></a> — Next-Gen metadata provider via SteamGridDB.</li>
+        <li><a href="https://github.com/gOOvER/playnite-gameactivity-ng"><b>playnite-gameactivity-ng</b></a> &amp; <a href="https://github.com/gOOvER/playnite-playeractivities-ng"><b>playeractivities-ng</b></a> — Activity timelines &amp; gaming stats.</li>
       </ul>
     </td>
   </tr>
@@ -98,23 +83,34 @@ What started as a *"hobby coder with no skill"* quickly evolved into building an
     <td width="50%" valign="top">
       <h3>🌌 Star Citizen &amp; PC Gaming Utilities</h3>
       <ul>
-        <li><a href="https://github.com/gOOvER/SCLogMate"><b>SCLogMate</b></a> — Real-time <code>Game.log</code> analyzer tracking trades, missions, ships, crew &amp; live balance.</li>
-        <li><a href="https://github.com/gOOvER/QuantumWake"><b>QuantumWake</b></a> — Second-screen dashboard, in-game overlay &amp; full 'verse map driven purely by <code>Game.log</code>.</li>
-        <li><a href="https://github.com/gOOvER/NexusApp"><b>NexusApp</b></a> — Offline Star Citizen companion for mining &amp; hauling with scan decoding &amp; refinery tracking.</li>
-        <li><a href="https://github.com/gOOvER/DLSS-Manager"><b>DLSS-Manager</b></a> &amp; <a href="https://github.com/gOOvER/DLSS-Manager-OnlineDB"><b>OnlineDB</b></a> — Detect and upgrade NVIDIA DLSS / FSR / XeSS across installed games.</li>
+        <li><a href="https://github.com/gOOvER/SCLogMate"><b>SCLogMate</b></a> — Real-time <code>Game.log</code> analyzer for trades, missions, ships &amp; crew.</li>
+        <li><a href="https://github.com/gOOvER/DLSS-Manager"><b>DLSS-Manager</b></a> &amp; <a href="https://github.com/gOOvER/DLSS-Manager-OnlineDB"><b>OnlineDB</b></a> — Detect and upgrade DLSS / FSR / XeSS across games.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>⚔️ WoW Addons &amp; Community Tools</h3>
+      <h3>⛏️ Solo Mining &amp; ⚔️ WoW Addons</h3>
       <ul>
-        <li><a href="https://github.com/gOOvER/GuildGreet-Extended"><b>GuildGreet-Extended</b></a> — Feature-rich greeting and guild management addon for World of Warcraft.</li>
-        <li><a href="https://github.com/gOOvER/Name2Chat"><b>Name2Chat</b></a> &amp; <a href="https://github.com/gOOvER/GGSocialState"><b>GGSocialState</b></a> — Quality-of-life chat identity and LDB broker social display addons.</li>
-        <li><a href="https://github.com/gOOvER/GumCord"><b>GumCord</b></a> — Discord bot for automated Gumroad license verification and role assignment.</li>
-        <li><a href="https://github.com/gOOvER/ispconfig3-helper-Scripts"><b>ispconfig3-helper-Scripts</b></a> — Automation scripts for server administration and ISPConfig setups.</li>
+        <li><a href="https://github.com/gOOvER/hashsolo"><b>HashSolo</b></a> &amp; <a href="https://github.com/gOOvER/hashsolo-ui"><b>hashsolo-ui</b></a> — Hardened, high-performance Bitcoin Solo Mining Pool (Stratum V1) &amp; Web UI (<a href="https://hashsolo.goover.dev">live pool</a>).</li>
+        <li><a href="https://github.com/gOOvER/GuildGreet-Extended"><b>GuildGreet-Extended</b></a> — Guild greeting &amp; roster management addon for WoW.</li>
+        <li><a href="https://github.com/gOOvER/Name2Chat"><b>Name2Chat</b></a> &amp; <a href="https://github.com/gOOvER/GGSocialState"><b>GGSocialState</b></a> — Chat identity &amp; LDB broker social display addons.</li>
       </ul>
     </td>
   </tr>
 </table>
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+| Category | Stack |
+| :--- | :--- |
+| **Languages** | ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white) ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) |
+| **Runtimes & Infra** | ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Pelican Panel](https://img.shields.io/badge/Pelican_Panel-0ea5e9?style=for-the-badge&logo=docker&logoColor=white) ![Pterodactyl](https://img.shields.io/badge/Pterodactyl-105293?style=for-the-badge&logo=pterodactyl&logoColor=white) |
+| **Data & DevOps** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) |
+
+</div>
 
 ---
 
@@ -136,13 +132,15 @@ What started as a *"hobby coder with no skill"* quickly evolved into building an
 
 ## 💖 Support & Connect
 
-If you enjoy using my Pelican/Pterodactyl Eggs, Playnite extensions, Star Citizen tools, or WoW addons, feel free to join our Discord community or support ongoing development:
-
 <div align="center">
+
+If my Pelican/Pterodactyl Eggs, Playnite extensions, Star Citizen tools, or WoW addons save you time, consider joining our Discord or supporting ongoing development:
+
+<br />
 
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/gOOvER)
 [![Donate Portal](https://img.shields.io/badge/donate.goover.dev-7aa2f7?style=for-the-badge&logo=heart&logoColor=white)](https://donate.goover.dev)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/oldnoob)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/goover)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/oldnoob)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/goover)
 [![Liberapay](https://img.shields.io/badge/Liberapay-F6C915?style=for-the-badge&logo=liberapay&logoColor=black)](https://liberapay.com/goover)

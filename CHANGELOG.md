@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+- Redesigned `assets/banner.svg` with a cleaner TokyoNight bento layout, dot-matrix texture, `BUILDING • AT` status indicator, and crisp SVG accent pills.
+- Cleaned up `README.md` by removing duplicate `dracula` summary card embeds, structuring **About Me** into a 2x2 focus grid, and organizing **Tech Stack & Tools** into a categorized table.
+- Updated **About Me** and **Featured Projects & Ecosystems** in `README.md`: added **HashSolo** (`hashsolo` & `hashsolo-ui`) and removed CubeCoders AMP, QuantumWake, NexusApp, GumCord, and ispconfig3-helper-Scripts.
+- Updated Ko-fi link in `README.md` and `.github/FUNDING.yml` from `oldnoob` to `goover`.
+
 ## [2.0.0] - 2026-11-01
 
 ### Added
